@@ -48,7 +48,7 @@ Ext.define('MyDesktop.App', {
     //     ];
     // },
     getModules: function() {
-        return EXT_DESKTOP_MODULES;
+        return EXT_DESKTOP_MODULES();
     },
 
     getDesktopConfig: function () {
