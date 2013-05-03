@@ -48,44 +48,7 @@ Ext.define('MyDesktop.App', {
     //     ];
     // },
     getModules: function() {
-        return [
-            new MyDesktop.DesktopModulesWindow(),
-            new MyDesktop.DesktopUsersWindow(),
-            new MyDesktop.DesktopKeysWindow(),
-            new MyDesktop.DesktopClientsWindow(),
-            new MyDesktop.UserDesktopModulesWindow(),
-            new MyDesktop.DesktopModuleOperationsWindow(),
-            new MyDesktop.UserDesktopModuleOperationsWindow(),
-            // lls added modules 
-            new MyDesktop.ThreePhaseTerminalsWindow(),            
-            new MyDesktop.SinglePhaseMeterWindow(),
-            new MyDesktop.MeterWindow(),
-            new MyDesktop.MessageWindow(),
-            // lls end
-        //  new MyDesktop.ThreePhaseTerminalsCommWindow(),
-            new MyDesktop.DesktopOfficesWindow(),
-            new MyDesktop.DesktopLinesWindow(),
-            new MyDesktop.UserPowerOfficesWindow(),
-            new MyDesktop.DesktopDictionariesWindow(),
-            new MyDesktop.ThreePhaseMetersWindow(),
-            new MyDesktop.PlusGroupWindow(),
-            new MyDesktop.PlusGroupMetersWindow(),
-            new MyDesktop.DictionaryItemsWindow(),
-            new MyDesktop.ThreePhaseChargeWindow(),
-            new MyDesktop.DesktopThreePhaseTerminalCommWindow(),
-            new MyDesktop.DesktopThreeChargeHandleWindow(),
-            new MyDesktop.DesktopCitiesWindow(),
-            new MyDesktop.DesktopTasksWindow(),
-            new MyDesktop.UserCitiesWindow(),
-            new MyDesktop.DesktopCommLogsWindow(),
-            new MyDesktop.DesktopLadderChargeWindow(),
-            new MyDesktop.DesktopReportsWindow(),
-            new MyDesktop.DesktopCarGpsWindow(),
-            new MyDesktop.DesktopLinesWindow(),
-            new MyDesktop.DesktopDatasMakingUpWindow(),
-            new MyDesktop.DesktopDayDatumWindow(),                                                                                                                       
-            new MyDesktop.DesktopChangeMeterWindow()
-        ];
+        return EXT_DESKTOP_MODULES;
     },
 
     getDesktopConfig: function () {
