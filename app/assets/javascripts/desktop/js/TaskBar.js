@@ -106,7 +106,7 @@ Ext.define('Ext.ux.desktop.TaskBar', {
      */
     getTrayConfig: function () {
         var ret = {
-            width: 110,
+            width: 120,
             items: this.trayItems
         };
         delete this.trayItems;
